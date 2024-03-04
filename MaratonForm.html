@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration form</title>
+</head>
+<body>
+    <h1>Race Registration</h1>
+    <div>
+        <form action="">
+<label for="name">First Name :</label>
+<input type="name" placeholder="first Name" id="name" name="firstname" required>
+
+<label for="Lastname">Last Name :</label>
+<input type="name" placeholder="Last Name" id="Lastname" name="Lastname" required>
+       
+    </div>
+ <p>Select the Race</p>
+ <div>
+    <input type="radio" name="Race" id="funRace" value="funRace">
+    <label for="funRace">Fun Race (5k)</label>
+    </div>
+    <div>
+        <input type="radio" name="Race" id="HalfMarathon" value="
+        HalfMarathon">
+        <label for="HalfMarathon">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" name="Race" id="fullMarathon" value="fullMarathon">
+            <label for="fullMarathon">fullMarathon</label>
+            </div>
+<div>
+    <label for="mail" >Email:</label>
+    <input type="email" name="Email" id="mail" placeholder="Email"  required>
+    <label for="password" >Password:</label>
+    <input type="password" name="password" id="password" placeholder="password"  required>
+</div>
+<div>
+    <label for="division">Select Age Group :</label>
+<select name="division" id="division">
+    <option value="kids">under 18</option>
+    <option value="youngAdult">18-30</option>
+    <option value="Adults">30-50</option>
+    <option value="senior">50 above</option>
+</select>
+</div>
+<button>Registor</button>
+</form>
+</body>
+</html>
