@@ -1,0 +1,39 @@
+/* universal selectors */
+*{
+    background-color: aqua;
+}
+/* element selector */
+ button{
+    font-size: 15px;
+ }
+ /* selector List */
+
+ h1,h2{
+color: darkslateblue;
+ }
+
+ /* ID Selector -- ID should be unique --- we give IDs to give properties to be specific to a particular button , element or text etc*/
+#signup{
+background-color: greenyellow;
+color: blue;
+}
+
+/* Class Selector */
+.border{
+    background-color:rgb(7, 212, 92);
+    
+}
+
+/* Descendent Selector --  select all elements that are nested inside the a particular tags
+Examples-- select all the <a>'s tags that are nested inside the <li> tags
+
+li a {
+    color: teal;
+        }
+*/
+ a {
+    color:rgb(27, 145, 3);
+}
+ div span a {
+    color:rgb(226, 15, 180);
+}
