@@ -1,6 +1,6 @@
 /* universal selectors */
 *{
-    background-color: aqua;
+    background-color: rgb(2, 83, 83);
 }
 /* element selector */
  button{
@@ -8,8 +8,8 @@
  }
  /* selector List */
 
- h1,h2{
-color: darkslateblue;
+ h1,h2, h3{
+color: rgb(15, 4, 83);
  }
 
  /* ID Selector -- ID should be unique --- we give IDs to give properties to be specific to a particular button , element or text etc*/
@@ -36,4 +36,54 @@ li a {
 }
  div span a {
     color:rgb(226, 15, 180);
+}
+
+/* Adjacent Selector -- Select the only paragraphs <p> that are immediately proceed  by the by <h1>  
+
+h1 + p { 
+
+}
+*/
+ p + ul   {
+    background-color: yellow;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 + p   {
+    background-color: rgb(21, 255, 0);
+    color: rgb(99, 42, 165);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+/* Direct Child -- Select only the <li>'s child that are direct children of <div> element
+
+div > li {
+
+}
+*/
+div > p {
+    background-color: red;
+    color: yellow;
+}
+/* Attribute selector --Select all input elements where the type attribute is set to "text"
+ 
+input[type="text"] {
+color : yellow;
+width: 300px;
+}
+*/
+/* it will provide the input in the password input in the given properties */
+input[type= "password"] {
+    color :red;
+    width: 300px;
+}
+ 
+section[class= "border"]{
+background-color: rgb(245, 54, 7);
+
+}
+/* it select the part of the link in the anchor tag if it matches the link then it will change the properties */
+a[href*= "google"]{
+    color:rgb(0, 211, 95);
 }
