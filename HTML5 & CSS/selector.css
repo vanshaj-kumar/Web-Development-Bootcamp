@@ -18,8 +18,12 @@ background-color: greenyellow;
 color: blue;
 }
 
-/* Class Selector */
-.border{
+/* #signup:hover {
+    background-color: red;
+    color: rgb(18, 221, 18);
+} */
+/* Class Selector */  
+.border {
     background-color:rgb(7, 212, 92);
     
 }
@@ -33,6 +37,12 @@ li a {
 */
  a {
     color:rgb(27, 145, 3);
+}
+
+a:hover {
+    text-decoration:overline;
+    color:rgb(27, 145, 3);
+    background-color: black;
 }
  div span a {
     color:rgb(226, 15, 180);
@@ -86,4 +96,21 @@ background-color: rgb(245, 54, 7);
 /* it select the part of the link in the anchor tag if it matches the link then it will change the properties */
 a[href*= "google"]{
     color:rgb(0, 211, 95);
+}
+/*  for Hovering  */
+ 
+button:hover {
+ background-color: red;
+ color: white
+}
+
+/* .border button:hover {
+    background-color: red;
+    color: white
+    
+} */
+
+button:active{
+    background-color: black;
+    color:white;
 }
