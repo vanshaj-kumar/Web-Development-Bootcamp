@@ -1,0 +1,25 @@
+#board{
+text-align: center;
+background-color: aliceblue;
+display: flex;
+margin:0% auto;
+width: 500px;
+flex-wrap:wrap;
+}
+
+
+.square{
+height: 100px;
+width: 100px;
+box-sizing: border-box;
+border: 1px solid rgb(23, 206, 93) ;
+}
+
+.square:nth-of-type(even){
+background-color: black;
+color: whitesmoke;
+}
+.square:nth-of-type(odd){
+background-color: orange;
+
+}

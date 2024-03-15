@@ -114,3 +114,35 @@ button:active{
     background-color: black;
     color:white;
 }
+/* 
+psuedo classes used
+
+:active 
+:checked
+:first
+:first-child
+:hover
+:not()
+:nth-child()
+
+
+
+*/
+
+
+/*.class:nth-of-type(n or multiple of n ) - to select the and execute some particular properties we use this 
+
+.class:nth-of-type(){
+
+background-color:red;
+
+}
+or it can also be done in id as well
+
+#id:nth-of-type(){
+
+background-color:red;
+
+}
+
+*/
