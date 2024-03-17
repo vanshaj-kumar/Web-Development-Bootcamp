@@ -1,0 +1,25 @@
+div{
+    justify-content: center;
+    width: 210px; ;
+    border-color: rgb(235, 6, 6);
+    border-radius: 5px;
+    border-width: 10px;
+    border-style: solid;
+}
+
+img
+{   
+    width: 200px;
+    justify-content: center;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 50%;
+    border-width: 5px;
+
+}
+
+h1{
+
+text-align: center;
+width: 210px;
+}

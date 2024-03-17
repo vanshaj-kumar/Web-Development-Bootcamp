@@ -125,8 +125,6 @@ psuedo classes used
 :not()
 :nth-child()
 
-
-
 */
 
 
@@ -146,3 +144,30 @@ background-color:red;
 }
 
 */
+
+
+
+/* ---------pseudo elements -------------------------
+keyword added to a selector that lets you style a particular part of the selected elements
+
+* ::after
+
+* ::before
+* ::first-letter
+
+* ::first-line
+
+* :: selection
+
+
+*/
+
+h2::first-letter{
+    font-size: 100px;
+    color: black;
+}
+
+p::first-line{
+    color:black;
+    font-size: 25px;
+}

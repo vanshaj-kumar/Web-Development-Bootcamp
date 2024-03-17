@@ -1,0 +1,14 @@
+----------------css conflicting------------------
+----------------Resolved by specificity-------------
+what happens when conflicting styles target the same elements ?
+It is solved by the specificity --- It is a measure of how specific the given selector is, The more specific selector wins.
+specificity is how the browser decides which rules to apply when multiple rules could apply to the same elements
+
+----INLINE STYLE> ID > CLASS > ELEMENT-----
+or to check the specificity you can check it on 
+specificity.keegan.st
+
+
+
+----------------css box Model-----------
+

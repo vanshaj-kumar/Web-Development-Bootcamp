@@ -14,11 +14,12 @@ width: 100px;
 box-sizing: border-box;
 border: 1px solid rgb(23, 206, 93) ;
 }
-
+ /* use of psuedo classes  */
 .square:nth-of-type(even){
 background-color: black;
 color: whitesmoke;
 }
+ /* use of psuedo classes  */
 .square:nth-of-type(odd){
 background-color: orange;
 
