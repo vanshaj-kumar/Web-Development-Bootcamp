@@ -90,3 +90,26 @@ padding: 1px 2px 4px;
    border-radius: 10px;
    padding: 5px 2px 4px 10px;
    }
+
+   /* -----------learnig about Margin now-------
+
+Individual-properties:-
+Margin-top
+Margin-bottom
+Margin-left
+Margin-right
+
+Shorthand Properties- set all the side at once
+
+Apply to all four sides
+Margin: 10px;
+
+vertical | Horizontal
+Margin: 5px 10px;
+
+Top | Horizontal | Vertical
+Margin: 1px 2px 2px;
+
+Top | Right | Bottom | Left
+Margin: 1px 2px 0px 2px;
+*/
