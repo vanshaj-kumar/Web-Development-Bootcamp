@@ -1,13 +1,17 @@
 div{
+    padding-top: 20px;
 width: 300px;
 height: 150px;
-background-color:teal;
+background-color:rgb(210, 233, 197);
 }
 
 h1 {
 width: 100px;
 height: 50px;
 background-color: orange;
+padding-left: 5px;
+padding-bottom: 5px;
+border-radius: 10px;
 }
 
 #one {
@@ -36,4 +40,53 @@ background-color: orange;
     border-radius: 10%;
 }
 
-/* learnig about Padding now */
+/* -----------learnig about Padding now-------
+
+Individual-properties:-
+padding-top
+padding-bottom
+padding-left
+padding-right
+
+Shorthand Properties- set all the side at once
+
+Apply to all four sides
+Padding: 10px;
+
+vertical | Horizontal
+Padding: 5px 10px;
+
+Top | Horizontal | Vertical
+Padding: 1px 2px 2px;
+
+Top | Right | Bottom | Left
+Padding: 1px 2px 0px 2px;
+*/
+.first{
+    background-color: green;
+width: 100px;
+height: 30px;
+border-radius: 10px;
+padding: 10px;
+padding-bottom: 30px;
+padding: 1px 2px 4px;
+padding: 1px 2px 4px 8px;
+}
+
+.second {
+
+ width: 150px;
+height: 30px;
+background-color: aqua;
+border-radius: 10px;
+padding: 1px 2px 4px;
+}
+.third {
+
+    width: 150px;
+   height: 50px;
+   color: red;
+   background-color: rgb(255, 187, 0);
+   border-radius: 10px;
+   padding: 5px 2px 4px 10px;
+   }
