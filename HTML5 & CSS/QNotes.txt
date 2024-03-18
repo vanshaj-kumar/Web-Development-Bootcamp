@@ -12,3 +12,20 @@ specificity.keegan.st
 
 ----------------css box Model-----------
 
+
+--------------Relative Units-----------
+Relative 
+-EM
+-REM
+-VH
+-VW
+-%
+-AND MORE!
+
+ABSOLUTE
+-PX
+-PT
+-CM
+-IN
+-MM
+
