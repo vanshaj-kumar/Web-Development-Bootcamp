@@ -15,11 +15,17 @@ specificity.keegan.st
 
 --------------Relative Units-----------
 Relative 
--EM
--REM
+-EM = with font-size, 1em is equal to the font-size of the parent. 2em's means twice of parent
+with other properties 1em equals to the computed font-size of the elements itself.
+
+-REM = relative to the root-element's font size. Often easier to work with.
+if the root-elements font-size is 20px, 1rem is always 20px , 2ren is 40px, etc.
+
 -VH
 -VW
--%
+-% = it is relative to some other value, it's a value from parent and other time it's value from the element itself 
+e.g.- width : 50%; --> half the width of the parent
+
 -AND MORE!
 
 ABSOLUTE
@@ -28,4 +34,6 @@ ABSOLUTE
 -CM
 -IN
 -MM
+
+-----------------Opacity and The Alpha channel----------------
 
