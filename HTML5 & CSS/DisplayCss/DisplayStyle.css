@@ -8,3 +8,21 @@ span{
     background-color: turquoise;
     display: block;
 }
+div{
+width: 200px;
+height: 200px;
+background-color: orange;
+border: 3px solid blue;
+/* display: inline;
+width and height are ignored.margin and  padding push elements away horizontally but not vertically
+
+display:block;
+block elements breaks the flow of a document. width,height, margin and padding are respected.
+
+display:inline-block;
+behave like an inline element except width, height , margin and padding are respected.
+
+*/
+display: inline-block;
+margin:50px;
+}
