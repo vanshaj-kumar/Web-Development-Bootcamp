@@ -1,0 +1,68 @@
+/* positons Css- position property sets how an element is positioned in a document */
+
+
+div
+{
+height: 100px;
+width: 100px;
+background-color: rgb(3, 20, 78);
+display: inline-block;
+border: 2px solid red;
+}
+
+#Static 
+{
+background-color: orange;
+}
+#Static #middle
+{
+    position: static;
+background-color: rgb(158, 20, 117);
+top: 50px;
+left: 30%;
+/* because it is static top property would not affect it */
+}
+#relative
+{
+    background-color: pink;
+}
+#relative #middle
+{
+background-color: rgb(30, 182, 50);
+/* because it is relative top property will work here */
+position: relative;
+ top: 50px; 
+/* right: 59px; */
+/* bottom: 80px; */
+/* left: 50px; */
+}
+
+/* its positioned relative to its closest ancestor if any , otherwise its positioned realtive to the initial containing block,
+it's final position is determined by the value of top, right, left and bottom   */
+#absolute
+{
+    position:relative;
+    background-color: rgb(129, 19, 37);
+}
+#absolute #middle
+{
+
+        position: absolute;
+    background-color: rgb(85, 4, 85);
+    left: 30px;
+    /* top: 50px; */
+    bottom: 40px;
+}
+
+#fixed
+{
+    /* position: relative; */
+    background-color: teal;
+}
+#fixed #middle
+{
+    position: fixed;
+    background-color: rosybrown;
+    top: 50px;
+    left: 50px;
+}
