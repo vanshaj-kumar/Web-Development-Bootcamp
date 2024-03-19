@@ -1,0 +1,62 @@
+/* --------Transition: -----------------
+ Property name
+ Duration
+ Timing Function
+ Delay
+
+*/
+.circle
+{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+   font-size: 50px;
+    text-align: center;
+    border: 2px solid orangered;
+    /* transition -- use it when you wanna change the something in an transitioning style */
+    /* duration property of transition  */
+    transition:  background-color 2s 1s ;
+    /* Timing Function of Transition */
+
+}
+.circle:hover
+{
+    background-color: rgb(223, 9, 9);
+    border-radius: 50%;
+}
+
+section div
+{
+    height: 75px;
+    width: 250px;
+    background-color: orange;
+    border: 2px solid black ;
+    margin: 20px 0;
+    transition: margin-left 6s;
+}
+section:hover div
+{
+    margin-left: 2500px;
+}
+
+div:nth-of-type(1)
+{
+    transition-timing-function: linear; 
+}
+div:nth-of-type(2)
+{
+    transition-timing-function: ease-in;
+}
+div:nth-of-type(3)
+{
+    transition-timing-function: steps(6, end);
+    
+}
+div:nth-of-type(4)
+{
+  transition-timing-function: cubic-bezier(0.29, 1.01, 1, -0.68);  
+}
+div:nth-of-type(5)
+{
+    transition-timing-function:cubic-bezier(0.6, 1.01, 1, 0.68);
+}
