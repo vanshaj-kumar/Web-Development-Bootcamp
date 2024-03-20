@@ -1,0 +1,56 @@
+h1{
+background-color: teal;
+border: 3px solid black;
+color: wheat;
+width:300px;
+padding: 0.7;
+font-size: 1.8em;
+text-align: course newt;
+font-family: 'Courier New';
+font-weight: lighter;
+/* margin: 20px; 
+margin : 20px auto will set the content in the center of the container wherever it will be */
+margin: 20px auto;
+}
+
+h1:nth-of-type(2n){
+    background-color: orangered;
+
+}
+h1:nth-of-type(3n){
+
+    background-color: rebeccapurple;
+}
+h1:nth-of-type(4n)
+{
+
+    background-color: rgb(49, 12, 83);
+}
+section:first-of-type h1:nth-of-type(1){
+    /* transform-origin: bottom right  ;     */
+    /* transform: rotateX(180deg); */
+    /* transform: rotateY(180deg); */
+    transform: rotate(25deg);
+ }
+ section:first-of-type h1:nth-of-type(2){
+    transform: scale(.5 );
+ }
+ section:first-of-type h1:nth-of-type(3){
+    /* transform: translate(200px); */
+    transform: translate(-200px);
+ }
+ section:first-of-type h1:nth-of-type(4){
+    transform: translate(-100px , 50px);
+ }
+ section:nth-of-type(2) h1:nth-of-type(1){
+    transform: skew(30deg , 10deg);
+ }
+ section:nth-of-type(2) h1:nth-of-type(2){
+    transform: skew(40deg);
+ }
+ section:nth-of-type(2) h1:nth-of-type(3){
+    transform: rotate(45deg) scale(1) skew(40deg, 10deg);
+ }
+ section:nth-of-type(2) h1:nth-of-type(4){
+    transform: translate(-200px) scaleY(.7) scaleX(.92) rotate(45deg);
+ }
