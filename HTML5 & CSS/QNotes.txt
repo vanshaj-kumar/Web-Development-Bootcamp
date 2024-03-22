@@ -37,3 +37,18 @@ ABSOLUTE
 
 -----------------Opacity and The Alpha channel----------------
 
+
+------------flexBox------------------
+FlexBox-- Flexbox is a one-dimensional layout method for arranging items in rows or columns. Items flex (expand) to fill additional space or shrink to fit into smaller spaces. This article explains all the fundamentals.
+
+Flexbox-direction---The flex-direction CSS property sets how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).
+ -flex-direction: row;
+ It is default in nature
+ - flex-direction : row-reverse;
+ flex-direction: column-reverse;
+ flex-direction: column; 
+ 
+
+Justify Content---The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.
+
+ 
