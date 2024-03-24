@@ -24,7 +24,10 @@ display: flex;
 /* justify-content: space-around; */
 /* justify-content: space-between; */
 /* justify-content: space-evenly; */
-
+/* flex-wrap: wrap-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap;  to give explicitly nowrap property   */
+  
 }
  #container div {
 height: 200px;
